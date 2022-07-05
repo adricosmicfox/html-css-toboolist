@@ -1,7 +1,5 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* background-color: #F6F8F9; */
-    background-color: gray;
     margin: 0;
 }
 
@@ -29,8 +27,13 @@
     vertical-align: middle;
 }
 
+
+body {
+    background-color: #f2f2f2;
+}
+
 /* controls & to do lists */
-#little-container {
+nav {
     margin-top: 40px;
     border-radius: 5px;
     margin-left: auto;
@@ -57,4 +60,27 @@ button {
     color: lightgray;
     background-color: white;
     border-color: lightgray;
+}
+
+/* task lists */
+main {
+    margin-top: 4px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+}
+
+h3,
+p {
+    margin-left: 50px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    background-color: white;
+    padding-top: 20px;
+    margin-bottom: 7px;
 }
