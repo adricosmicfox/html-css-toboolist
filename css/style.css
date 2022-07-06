@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     margin: 0;
 }
 
@@ -83,4 +83,41 @@ h3 {
     background-color: white;
     padding-top: 20px;
     margin-bottom: 7px;
+}
+
+span {
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: #47ADF1;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.Goals {
+    background-color: #9C72E4;
+}
+
+.Recruiting {
+    background-color: #64C0A9;
+}
+
+.Mobile {
+    background-color: #F29E33;
+}
+
+.Website {
+    background-color: #D863A1;
+}
+
+.Sales {
+    background-color: #B0C926;
+}
+
+.check {
+    width: 15px;
+}
+
+.cross {
+    width: 15px;
 }
